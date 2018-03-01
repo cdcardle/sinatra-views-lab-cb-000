@@ -1,4 +1,5 @@
 <html>
 <h1>Today</h1>
-<p>The date is <%="#{DateTime.now.strftime(%A%B%e%Y)}"%></p>
+<% d = DateTime.now %>
+<p>The date is <%="#{d.strftime(%A%B%e%Y)}"%></p>
 </html>
