@@ -1,5 +1,5 @@
 <html>
 <h1>Today</h1>
-<% d = DateTime.now %>
-<p>The date is <%="#{d}"%></p>
+<% t = Time.now %>
+<p>The date is <%="#{t.strftime("%A, %B #{d.day.ordinalize}, %Y.")}"%></p>
 </html>
